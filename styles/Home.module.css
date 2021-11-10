@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+
+.canvas{
+  background-color: black;
+
+}
+
+.main{
+  display: flex;
+  margin-top: 20px;
+}
+
+.busca{
+  width: 850px;
+  display: flex;
+  height: 40px;
+  margin-top: 20px;
+  position: center;
+  margin-left: 30px;
+  background-color: #E5E5E9;
+  border-radius: 20px;
+  border:2px;
+  border-color: black;
+}
+
+.video{
+  position: relative;
+  width:850px ;
+  height: 520px;
+  margin-left: 30px;
+  
+  
+}
+
+.pesquisa{
+  margin-left: 695px;
+  margin-top: 8px;
+}
+
+.microfone{
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+.pesquisar{
+  margin-top: 9px;
+  margin-left: 15px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+}
+
+
+.controls{
+  position: absolute;
+  bottom: 0;
+  height: 3.5rem;
+  width: 100%;
+  margin-left: 0px;
+  background-color:transparent;
+  margin-top: 2px;
+  
+}
+
+
+
+.time input{
+  width:100%;
+  margin-left: -1px;
+  
+}
+
+.videoItem img {
+  width: 150px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.listavideo{
+  margin: 0 10px;
+  margin-left: 20px;
+  width: 100%;
+  
+}
+
+.videoItem{
+  display:flex;
+  margin-bottom: 10px;
+  align-items: flex-start;
+ 
+}
+
+.videoItem h2{
+  margin: 0;
+  margin-top: 3px;
+  font-size: 15px;
+  color: black;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.videoItem h5{
+  margin: 0;
+  margin-top: 3px;
+  font-size: 11px;
+  color: #221E1F;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+
+
+
+.playIcon{
+  background-color: transparent;
+  color:white;
+}
+
+.playButton{
+  background-color: transparent;
+  border: none;
+}
+
+.controls input
+{
+  appearance: none;
+  -webkit-animation: none;
+  height: 3px;
+  
+  background-color: white;
+}
+
+.controls input::-webkit-slider-thumb
+{
+  appearance: none;
+  -webkit-animation: none;
+  height: 5px;
+  width: 5px;
+  background-color: red;
+}
+
+.controlPainel{
+  display: flex;
+  align-items: center;
+}
+
